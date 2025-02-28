@@ -9,12 +9,12 @@ spring:
          enabled: true
       livereload:
          enabled: true
-        
+         
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.66.4:3306/webdb?characterEncoding=utf8
+      url: jdbc:mariadb://192.168.0.153:3306/webdb?characterEncoding=utf8
       username: webdb
-      password: webdb
+      password: '{cipher}AYBVJIbeFX1gr9TxIKWBKXiPoagLEVPHTLhjRdcuac0+SYGooVWgAHcOtSeJxf3nqtSMDanEnZoN52fnisnCTIwJq264Pz3oiJJcHKpbk1iLFbc3jTROL802szDVysqu0hwlf+3UNH/7O/Ab/+3OIbxUaTTuyXrqliu65SvlycbjrgCpNVh0fEaETLpB39oQxJER3j/8tSrSoK4a7CngmOiamz71l9i38Xxp+Tv2pyFtocWvX5fmhucMez/oFZZixR9SB4EeFYjfVmO/CS+0EDkaILS7DE/OcarHX+wbUeE9L7gKKj7OKAyPg2LOr3zWHJ2ZsusjWHlHrzU4BdQQtpW6/n7nWt0oC346S57ko+UEtMqaLwV7FVh++CQFJ64riWymJlkWQ22CNpCav3O9/xiGxIncgQhq+IBdPPZ6rxwITZwHOmxYlYjsds5shzRDv6fvNx8I+pxX2Jd9ax3v25yHkmQni/4kYLs6e8Y7Ou4xxYwm2Dlpnr2QVkCGozIMLWQhANFmX3MLxzIiijQHyIst4oPe1FEsokqx/Qf6izJbiA=='
       hikari:
          minimum-idle: 10
          maximum-pool-size: 20    
